@@ -5,6 +5,9 @@ public class Main {
 
     Scanner scanner = new Scanner(System.in);
 
+    for (int contador = 0; contador < 3; contador++) {
+        System.out.println("Procesando registro " + contador);
+    }
 
     System.out.print("Ingrese nombre: ");
     String nombre = scanner.nextLine();
