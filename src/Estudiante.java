@@ -3,6 +3,12 @@ public class Estudiante {
     private String carrera;
     private int    edad;
 
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Carrera: " + carrera);
+        System.out.println("Edad: " + edad);
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -32,11 +38,6 @@ public class Estudiante {
         this.carrera = carrera;
         this.edad = edad;
 
-    public void mostrarInformacion() {
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Carrera: " + carrera);
-        System.out.println("Edad: " + edad);
-        }
 
 
     }
